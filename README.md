@@ -7,15 +7,20 @@
 4. Sebutkan contoh design pattern dalam Paradigma Object-Oriented!
 
 ##Jawaban
-1.  pada OOP adalah mengkombinasikan data dan fungsi untuk mengakses data menjadi sebuah kesatuan unit yang dikenal dengan nama objek. Objek adalah struktur data yang terdiri dari bidang data dan metode bersama dengan interaksi mereka untuk merancang aplikasi dan program komputer. Pada paradigma Object Oriented, object-object tersebut dapat berkerja sendiri dan juga dapat saling bekerja sama dengan kemungkinkan untuk saling berhubungan, seperti menerima, mengirim data kepada object lainnya dan memproses data.
+1. Paradigma Object-Oriented mengkombinasikan data dan fungsi untuk mengakses data menjadi sebuah kesatuan unit yang dikenal dengan nama objek. Objek adalah struktur data yang terdiri dari bidang data dan metode bersama dengan interaksi mereka untuk merancang aplikasi dan program komputer. Pada paradigma Object Oriented, object-object tersebut dapat berkerja sendiri dan juga dapat saling bekerja sama dengan kemungkinkan untuk saling berhubungan, seperti menerima, mengirim data kepada object lainnya dan memproses data.
 
 2. 1). Object Oriented Programming memodelkan hal-hal kompleks sebagai struktur sederhana yang dapat direproduksi. Kode OOP dapat digunakan kembali
+   
    2). Object Oriented Programming mencegah duplikasi kode. Object Oriented Programming melindungi informasi melalui enkapsulasi. Data Object hanya dapat 	 diakses melalui properti dan metode publik
-   3). OOP mempermudah perbaikan bug. Memperbaiki kesalahan yang terdapat dalam kelas yang terstruktur dengan baik lebih mudah daripada menemukan kesalahan 	   di banyak tempat dalam kode.
+  
+  3). OOP mempermudah perbaikan bug. Memperbaiki kesalahan yang terdapat dalam kelas yang terstruktur dengan baik lebih mudah daripada menemukan kesalahan 	   di banyak tempat dalam kode.
 
 3. 1). Pewarisan: kelas anak mewarisi data dan perilaku dari kelas induk.Pewarisan memungkinkan kelas mewarisi fitur kelas lain, pewarisan juga dikenal 	sebagai prototyping. 
+  
    2). Enkapsulasi: berisi informasi dalam suatu objek, hanya menampilkan informasi yang dipilih.Atribut dan perilaku ditentukan oleh kode di dalam template 	    kelas. 
+   
    3). Polimorfisme: banyak metode dapat melakukan tugas yang sama. Polimorfisme memungkinkan metode yang sama untuk mengeksekusi perilaku yang berbeda dalam 	     dua cara: penggantian metode dan overloading metode.
+   
 4.  Design pattern merupakan komponen yang diperlukan dalam proses reusable-code pada pemrograman berorientasi objek.
 
 ## Class and Object
@@ -46,6 +51,7 @@ Implementasikan kelas diagram "Kendaraan" berikut ke dalam Python!
     - double harga
     - showTanggalPembelian()
 ###Jawaban
+
 
 ## Main OOP Concept
 1. Jelaskan konsep encapsulation dalam Paradigma Object-Oriented!
