@@ -1,19 +1,34 @@
 # Tugas Struktur Data
 
-
-# Exercise 9 Struktur Data
-
 ## Introduction Section
 1. Jelaskan definisi object dalam Paradigma Object-Oriented!
 2. Jelaskan tiga tujuan dalam Paradigma Object-Oriented!
 3. Jelaskan tiga prinsip dalam Paradigma Object-Oriented!
 4. Sebutkan contoh design pattern dalam Paradigma Object-Oriented!
 
+##Jawaban
+1.  pada OOP adalah mengkombinasikan data dan fungsi untuk mengakses data menjadi sebuah kesatuan unit yang dikenal dengan nama objek. Objek adalah struktur data yang terdiri dari bidang data dan metode bersama dengan interaksi mereka untuk merancang aplikasi dan program komputer. Pada paradigma Object Oriented, object-object tersebut dapat berkerja sendiri dan juga dapat saling bekerja sama dengan kemungkinkan untuk saling berhubungan, seperti menerima, mengirim data kepada object lainnya dan memproses data.
+
+2. 1). Object Oriented Programming memodelkan hal-hal kompleks sebagai struktur sederhana yang dapat direproduksi. Kode OOP dapat digunakan kembali
+   2). Object Oriented Programming mencegah duplikasi kode. Object Oriented Programming melindungi informasi melalui enkapsulasi. Data Object hanya dapat 	 diakses melalui properti dan metode publik
+   3). OOP mempermudah perbaikan bug. Memperbaiki kesalahan yang terdapat dalam kelas yang terstruktur dengan baik lebih mudah daripada menemukan kesalahan 	   di banyak tempat dalam kode.
+
+3. 1). Pewarisan: kelas anak mewarisi data dan perilaku dari kelas induk.Pewarisan memungkinkan kelas mewarisi fitur kelas lain, pewarisan juga dikenal 	sebagai prototyping. 
+   2). Enkapsulasi: berisi informasi dalam suatu objek, hanya menampilkan informasi yang dipilih.Atribut dan perilaku ditentukan oleh kode di dalam template 	    kelas. 
+   3). Polimorfisme: banyak metode dapat melakukan tugas yang sama. Polimorfisme memungkinkan metode yang sama untuk mengeksekusi perilaku yang berbeda dalam 	     dua cara: penggantian metode dan overloading metode.
+4.  Design pattern merupakan komponen yang diperlukan dalam proses reusable-code pada pemrograman berorientasi objek.
+
 ## Class and Object
 1. Jelaskan definisi Class!
 2. Jelaskan perbedaan Attribute dengan Method!
 3. Jelaskan apa itu instansiasi Object!
 4. Jelaskan apa itu identifier!
+
+### Jawaban
+1. Class adalah cetak biru atau blueprint dari object. Class digunakan hanya untuk membuat kerangka dasar. 
+2. Atribut adalah ciri-ciri yang melekat pada suatu object. Sedangkan method adalah fungsi-fungsi yang dapat digunakan untuk memanipulasi nilai-nilai pada atribut atau untuk melakukan hal-hal yang dapat dilakukan suatu object.
+3. instansiasi Object merupakan suatu proses dalam pembentukan object dari class yang ada.
+4. Identifier adalah sebuah pengenal atau pengidentifikasi yang kita deklarasikan agar kompiler dapat mengenalinya. atau Identifier juga biasa diartikan sebagai nama yang diberikan untuk penamaan objek, Identifier dapat berupa nama variabel, nama konstanta, nama fungsi, nama prosedur maupun nama namescape. 
 
 ## Implementing Class
 Implementasikan kelas diagram "Kendaraan" berikut ke dalam Python!
@@ -30,6 +45,7 @@ Implementasikan kelas diagram "Kendaraan" berikut ke dalam Python!
     - double berat
     - double harga
     - showTanggalPembelian()
+###Jawaban
 
 ## Main OOP Concept
 1. Jelaskan konsep encapsulation dalam Paradigma Object-Oriented!
