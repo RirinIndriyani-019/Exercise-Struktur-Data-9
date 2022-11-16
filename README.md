@@ -125,3 +125,49 @@ Salah satu metode dalam data science untuk melakukan klasifikasi adalah dengan m
 - Jadikan kelas yang paling banyak muncul tersebut sebagai kelas dari vector H
 
 Implementasikan algoritma tersebut menggunakan program python dengan paradigma object-oriented programming yang telah anda pelajari!
+
+
+from math import sqrt
+import statistics
+class Vektor:
+  def __init__(self, vektor, x, y, z, NamaVektor):
+    self.vektor = vektor
+    self.x = x
+    self.y = y
+    self.z = z
+    self.NamaVektor = NamaVektor
+    self.KelasH = 0
+  def Panjang(self):
+    vktr = []
+    Panjang = []
+    # Panjang ttngg
+    for i in self.vektor:
+        komponen_vektor = list(self.vektor[i].values())
+        def dekat(komponen_vektor):
+            DistanceJarak = 0
+            for i in komponen_vektor:
+                DistanceJarak = sqrt((self.x-komponen_vektor[1])**2 + (self.y-komponen_vektor[2])**2 + (self.z-komponen_vektor[3])**2)
+            return DistanceJarak
+        vktr = vktr + [self.vektor[i]]
+        Panjang = Panjang + [round(dekat(komponen_vektor), 2)]
+        print(f"Panjang vektor {self.vektor[i]['vektor']} dengan vektor H adalah sebesar {round(dekat(komponen_vektor), 2)}")
+    Nilai_Sortir = sorted(Panjang)
+    ttngg = {}
+    for i in range(len(Panjang)):
+        ttngg[Panjang[i]] = vktr[i]    
+    print("Urutannya adalah:")
+    for j in range(len(Nilai_Sortir)): 
+        print(f"Panjang vektor {ttngg[Nilai_Sortir[j]]['vektor']} dengan vektor H adalah sebesar {Nilai_Sortir[j]}")
+    print("3 Tetangga terdekat:")
+    kelas = []
+    for k in range(3):
+        print(f"Vektor {ttngg[Nilai_Sortir[k]]['vektor']} dengan kelas {ttngg[Nilai_Sortir[k]]['kelas']} pada Panjang {Nilai_Sortir[k]} dengan vektor H")
+        kelas = kelas + [ttngg[Nilai_Sortir[k]]['kelas']]
+    self.KelasH = statistics.mode(kelas)
+    print("Kelas yang paling banyak muncul adalah = ", self.KelasH)
+    print("Kelas dari vektor H = ", self.KelasH)
+  def hasil(self):
+    return {'vektor': self.NamaVektor, 'x' : self.x, 'y' : self.y, 'z': self.z, 'kelas': self.KelasH}
+
+
+
