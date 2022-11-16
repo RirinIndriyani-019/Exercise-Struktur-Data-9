@@ -126,7 +126,8 @@ Salah satu metode dalam data science untuk melakukan klasifikasi adalah dengan m
 - Jadikan kelas yang paling banyak muncul tersebut sebagai kelas dari vector H
 
 Implementasikan algoritma tersebut menggunakan program python dengan paradigma object-oriented programming yang telah anda pelajari!
-```
+
+```python
 from math import sqrt
 import statistics
 class Vektor:
