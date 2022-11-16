@@ -60,7 +60,7 @@ Implementasikan kelas diagram "Kendaraan" berikut ke dalam Python!
 3. Jelaskan perbedaan public method dan private method dalam encapsulation!
 4. Jelaskan perbedaan superclass dan subclass dalam inheritance!
 
-###Jawaban
+##Jawaban
 
 1.Enkapsulasi adalah fungsi fungsi yang dihimpun dalam sebuah class
 2.Inheritance adalah sifat sifat yang diturunkan class terhadap fungsi-fungsi yang berada di dalamnya sehingga setiap fungsi memiliki sifat yang mirip dengan fungsi yang lainnya
