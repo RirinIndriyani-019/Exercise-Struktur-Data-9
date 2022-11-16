@@ -170,6 +170,32 @@ class Vektor:
   def hasil(self):
     return {'vektor': self.NamaVektor, 'x' : self.x, 'y' : self.y, 'z': self.z, 'kelas': self.KelasH}
  ```
+ 
+ 
+ ```python
+ def hasil(self):
+    return {'vektor': self.NamaVektor, 'x' : self.x, 'y' : self.y, 'z': self.z, 'kelas': self.KelasH}
+TableOfVevtor = {
+    "vektor1" : {'vektor': 'A', 'x' : 0, 'y' : 1, 'z': 1, 'kelas': 0 },
+    "vektor2" : {'vektor': 'B', 'x' : 2, 'y' : 2, 'z': 2, 'kelas': 1},
+    "vektor3" : {'vektor': 'C', 'x' : 1.5, 'y' : 1.2, 'z': 1, 'kelas': 1},
+    "vektor4" : {'vektor': 'D', 'x' : 10, 'y' : 9, 'z': 0, 'kelas': 0},
+    "vektor5" : {'vektor': 'E', 'x' : 5, 'y' : 5, 'z': 5, 'kelas': 0},
+    "vektor6" : {'vektor': 'F', 'x' : 8, 'y' : 8, 'z': 0, 'kelas': 0},
+    "vektor7" : {'vektor': 'G', 'x' : 6, 'y' : 6, 'z': 0, 'kelas': 0},
+}
+for KeyOfVector in TableOfVevtor:
+    print(TableOfVevtor[KeyOfVector])
+print("\n")
+data = Vektor(TableOfVevtor, 3, 3, 3, "H")
+data.Panjang()
+print(data.hasil())
+TableOfVevtor["vektor8"] = data.hasil()
+print("\n")
+for KeyOfVector in TableOfVevtor:
+    print(TableOfVevtor[KeyOfVector])
+    
+```
 
 
 
