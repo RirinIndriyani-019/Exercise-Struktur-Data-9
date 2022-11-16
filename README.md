@@ -52,6 +52,22 @@ Implementasikan kelas diagram "Kendaraan" berikut ke dalam Python!
     - showTanggalPembelian()
 ###Jawaban
 
+class kendaraan:
+        def __init__(self,nomorplat, jenis, warna, merk, tanggalbeli, bulanbeli, tahunbeli, harga, berat):
+            self.nomorplat=nomorplat
+            self.jenis=jenis
+            self.warna=warna
+            self.merk=merk
+            self.tanggalbeli=tanggalbeli
+            self.bulanbeli=bulanbeli
+            self.tahunbeli=tahunbeli
+            self.harga=harga
+            self.berat=berat
+        def show_tanggal_pembelian(self):
+            print(f"{self.nomorplat}, {self.merk}, {self.jenis}, {self.warna},{self.tanggalbeli}/{self.bulanbeli}/{self.tahunbeli}, 'harga:{self.harga}'")
+Beli = kendaraan("BA0000", "ABCD", "12hyt", "hitam", 22, 8, 2003,23456709876 , 523)
+Beli.show_tanggal_pembelian()
+
 
 ## Main OOP Concept
 1. Jelaskan konsep encapsulation dalam Paradigma Object-Oriented!
