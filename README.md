@@ -131,12 +131,12 @@ Implementasikan algoritma tersebut menggunakan program python dengan paradigma o
 from math import sqrt
 import statistics
 class Vektor:
-  def __init__(self, vektor, x, y, z, NamaVektor):
+  def __init__(self, vektor, x, y, z, Namavektor):
     self.vektor = vektor
     self.x = x
     self.y = y
     self.z = z
-    self.NamaVektor = NamaVektor
+    self.Namavektor = Namavektor
     self.KelasH = 0
   def Panjang(self):
     vktr = []
@@ -168,13 +168,13 @@ class Vektor:
     print("Kelas yang paling banyak muncul adalah = ", self.KelasH)
     print("Kelas dari vektor H = ", self.KelasH)
   def hasil(self):
-    return {'vektor': self.NamaVektor, 'x' : self.x, 'y' : self.y, 'z': self.z, 'kelas': self.KelasH}
+    return {'vektor': self.Namavektor, 'x' : self.x, 'y' : self.y, 'z': self.z, 'kelas': self.KelasH}
  ```
  
  
  ```python
  def hasil(self):
-    return {'vektor': self.NamaVektor, 'x' : self.x, 'y' : self.y, 'z': self.z, 'kelas': self.KelasH}
+    return {'vektor': self.Namavektor, 'x' : self.x, 'y' : self.y, 'z': self.z, 'kelas': self.KelasH}
 TableOfVevtor = {
     "vektor1" : {'vektor': 'A', 'x' : 0, 'y' : 1, 'z': 1, 'kelas': 0 },
     "vektor2" : {'vektor': 'B', 'x' : 2, 'y' : 2, 'z': 2, 'kelas': 1},
@@ -194,7 +194,6 @@ TableOfVevtor["vektor8"] = data.hasil()
 print("\n")
 for KeyOfVector in TableOfVevtor:
     print(TableOfVevtor[KeyOfVector])
-    
 ```
 
 
