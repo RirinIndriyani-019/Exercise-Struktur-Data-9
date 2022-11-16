@@ -52,7 +52,6 @@ Implementasikan kelas diagram "Kendaraan" berikut ke dalam Python!
     - showTanggalPembelian()
    
 
-###Jawaban
 
 
 ## Main OOP Concept
@@ -61,6 +60,12 @@ Implementasikan kelas diagram "Kendaraan" berikut ke dalam Python!
 3. Jelaskan perbedaan public method dan private method dalam encapsulation!
 4. Jelaskan perbedaan superclass dan subclass dalam inheritance!
 
+###Jawaban
+
+1.Enkapsulasi adalah fungsi fungsi yang dihimpun dalam sebuah class
+2.Inheritance adalah sifat sifat yang diturunkan class terhadap fungsi-fungsi yang berada di dalamnya sehingga setiap fungsi memiliki sifat yang mirip dengan fungsi yang lainnya
+3.Publik adalah variabel yang dapat diakses oleh seluruh fungsi sementara privat adalah fungsi yang hanya bisa diakses oleh fungsi yang mendeklarasikannya
+4.Superclass adalah kelas yang menghimpun subclass sementara subclass adalah class yang berada di dalam superclass
 
 ## Programming Exercise
 - Buatlah class diagram dari code python berikut ini:
