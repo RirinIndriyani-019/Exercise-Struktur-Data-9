@@ -50,9 +50,8 @@ Implementasikan kelas diagram "Kendaraan" berikut ke dalam Python!
     - double berat
     - double harga
     - showTanggalPembelian()
-###Jawaban
-
-class kendaraan:
+   
+  class kendaraan:
         def __init__(self,nomorplat, jenis, warna, merk, tanggalbeli, bulanbeli, tahunbeli, harga, berat):
             self.nomorplat=nomorplat
             self.jenis=jenis
@@ -67,6 +66,9 @@ class kendaraan:
             print(f"{self.nomorplat}, {self.merk}, {self.jenis}, {self.warna},{self.tanggalbeli}/{self.bulanbeli}/{self.tahunbeli}, 'harga:{self.harga}'")
 Beli = kendaraan("BA0000", "ABCD", "12hyt", "hitam", 22, 8, 2003,23456709876 , 523)
 Beli.show_tanggal_pembelian()
+
+###Jawaban
+
 
 
 ## Main OOP Concept
